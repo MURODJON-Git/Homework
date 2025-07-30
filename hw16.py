@@ -1,0 +1,5 @@
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+sum_two_largest = a + b + c - min(a, b, c)
+print("Сумма двух наибольших чисел:", sum_two_largest)
